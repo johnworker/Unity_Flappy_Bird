@@ -4544,6 +4544,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30c3a381d2484db4685f9daeb4a2b1ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MainCamera: {fileID: 1598283302}
+  RunSpeed: 1
+  JumpSpeed: 4.5
+  Gravity: 10
 --- !u!4 &1557443729
 Transform:
   m_ObjectHideFlags: 0
