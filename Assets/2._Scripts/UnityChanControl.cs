@@ -91,7 +91,7 @@ public class UnityChanControl : MonoBehaviour
         // 
         UnityChanPosition = this.GetComponent<Transform>().position;
         // 
-        CameraFollowVector =new Vector3(UnityChanPosition.x, 1.6f, UnityChanPosition.z - 0.7f);
+        CameraFollowVector =new Vector3(UnityChanPosition.x, 1.6f, UnityChanPosition.z - 1.2f);
         // 
         MainCamera.GetComponent<Transform>().position = CameraFollowVector;
     }
